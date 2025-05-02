@@ -41,8 +41,8 @@ def smart_mapping():
 
 @app.route('/traffic')
 def traffic():
-
-    url = "https://api.weatherstack.com/current?access_key=key"
+    access_key = "" #Key goes here
+    url = f"https://api.weatherstack.com/current?access_key={access_key}"
     ip_address = request.remote_addr
     response = requests.get(f"https://ipapi.co/{ip_address}/json/")
     data = response.json()
