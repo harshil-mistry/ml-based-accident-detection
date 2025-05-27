@@ -1,5 +1,39 @@
-This was the project we made in the Techathon 2025 at Adani Institute of Digital Technology Management. Our theme was on Road Safety. And the main motive of this project was that we will pass the CCTV footage alongside roads to out model which will try to detect accidents in that footage. If any such accident is detected, then the higher authorities will be informed about the accident and the emergency services will be updated, reducing the First Aid help time by a large margin. 
+# 🚦 Road Accident Detection System
 
-There were some additional features as well in the website, such as the user can see the weather conditions or traffic in the city, so the user can take precautions beforehand and can take the route which will help the user reach the destination easily and quicker.
+A smart system designed to enhance road safety by monitoring weather, traffic, and accidents, while providing timely alerts and automated reporting to reduce road accidents and improve emergency response.
 
-Although by the end of given time period, we were not able to integrate these two components (model and website), as of now both are working fine individually, and i am too lazy to integrate the model in the website now :)
+## 🚀 Features
+
+### 🌤 Weather Monitoring
+- Retrieves real-time weather information for the user's city.
+- Sends advance warnings to users about adverse weather conditions to encourage precaution or avoiding travel.
+
+### 🚨 Accident Notifications
+- Notifies users if an accident occurs nearby, allowing them to drive cautiously or choose alternate routes.
+
+### 🚦 Traffic Monitoring
+- Displays traffic-heavy roads and congested areas.
+- Helps users select safer and less congested routes to their destination.
+
+### 🎥 Accident Detection via Machine Learning
+- Allows users or officials to upload CCTV footage videos.
+- Uses ML algorithms to analyze footage and detect accidents automatically.
+- Sends instant alerts to emergency services upon detection.
+
+### 📝 User Reporting System
+- Enables citizens and users to report accidents with location and other relevant details.
+- Facilitates faster emergency response and accident management.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, Flask
+- **Machine Learning**: YOLOv8
+- **APIs**: MapBox for Traffic data, WeatherStack for weather data
+
+## 📌 Future Improvements
+
+- Real-time accident detection via live traffic camera feeds
+- Integration with emergency services for automatic dispatch
+- Mobile app for instant alerts and reporting
+- Advanced analytics dashboard for traffic and accident trends
