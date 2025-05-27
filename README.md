@@ -37,3 +37,6 @@ A smart system designed to enhance road safety by monitoring weather, traffic, a
 - Integration with emergency services for automatic dispatch
 - Mobile app for instant alerts and reporting
 - Advanced analytics dashboard for traffic and accident trends
+
+> **Note:**  
+> The website and the machine learning model were not integrated by the end of Hackathon. However, both components are fully functional independently.
